@@ -1,3 +1,4 @@
+##Explanation
 * setwd() to  UCI HAR Dataset
 
 * Use read.table to read data
@@ -44,7 +45,7 @@ subtract_all <- finalData1[rule]
 
 write.table(Mean, "tidy.txt")
 
-Rows define the measurement and whether it was a mean or a standard deviations.
+##Rows define the measurement and whether it was a mean or a standard deviations.
 
 tBodyAcc-mean()-X
 tBodyAcc-mean()-Y
